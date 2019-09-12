@@ -26,7 +26,7 @@ idlist = []
 for option in soup.find_all('option'):
     #Give a list of Comte names and their ID(called a 'key')
     # Connects option['value'] to comte chunk after 'home'
-    if int(option['value']) > 1:
+    if len(option['value']) > 1:
         idlist.append(option['value'])
     else:
         print("V blank_comte_page V")
