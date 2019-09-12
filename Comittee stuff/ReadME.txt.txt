@@ -1,5 +1,5 @@
 By: Sean Tobin
-Email: seantobin@bellsouth.net
+
 
 This program doesn't come with a license. Use at your own peril. 
 
